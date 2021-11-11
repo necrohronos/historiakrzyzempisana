@@ -1,0 +1,62 @@
+body {
+    font-size: 1.2em;
+}
+.skip-link {
+  background: #319795;
+  color: #fff;
+  font-weight: 700;
+  left: 50%;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+}
+main, figcaption {
+    background: #eef2f3;
+    
+}
+header, footer {
+    background: white;
+}
+figure {
+    background: url(img/prlab_sqr.jpg);
+    background-size: cover;
+    clear: both;
+}
+figure img {
+    width: 200px;
+    opacity: 0;
+    transition: 1.5s;
+}
+figure img:hover {
+    opacity: 1;
+    transition: 1s;
+}
+figcaption {
+    text-align: center;
+    height: 50px;
+}
+footer {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+footer div {
+    max-height: 120px;
+    text-align: center;
+}
+footer:first-child {
+    margin-right: 10px;
+}
+@media screen and (min-width: 1142px) {
+    body {
+        background: #f0f0f0 url("img/background2.jpg") fixed center;
+        background-size: cover;
+    }
+    main {
+        margin-top: 10px;
+    }
+}
