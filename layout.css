@@ -42,13 +42,15 @@ figure {
     min-width: 200px;
     width: 200px;
     height: 200px;
-    margin: 20px;
+    margin: 30px 0;
+}
+figcaption {
+    margin-top: -5px;
 }
 @media screen and (min-width: 330px) {
  header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
 }
     .main-logo {
     grid-column: 1/2;
@@ -68,7 +70,6 @@ figure {
 header {
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 2fr 1fr;
 }
 }
 @media screen and (min-width:698px) {
@@ -88,3 +89,9 @@ header {
 }
 .subtitle {
     text-align: right;}}
+
+@media screen and (min-width:1112px) {
+    figure {
+        margin: 30px 20px;
+    }
+}

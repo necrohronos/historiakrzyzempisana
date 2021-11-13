@@ -14,11 +14,7 @@ body {
 .skip-link:focus {
   transform: translateY(0%);
 }
-main, figcaption {
-    background: #eef2f3;
-    
-}
-header, footer {
+main, header, footer, figcaption {
     background: white;
 }
 figure {
@@ -34,6 +30,9 @@ figure img {
 figure img:hover {
     opacity: 1;
     transition: 1s;
+}
+.person4 {
+    background: url(img/czetwertynski_1.jpg);
 }
 figcaption {
     text-align: center;
@@ -53,10 +52,11 @@ footer:first-child {
 }
 @media screen and (min-width: 1142px) {
     body {
-        background: #f0f0f0 url("img/background2.jpg") fixed center;
+        background: #f0f0f0 url("img/background.jpg") fixed center;
         background-size: cover;
     }
     main {
         margin-top: 10px;
+        background: rgba(255, 255, 255, 0.87)
     }
 }
