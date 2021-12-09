@@ -14,7 +14,7 @@ body {
 .skip-link:focus {
   transform: translateY(0%);
 }
-main, header, footer, figcaption {
+main, footer, figcaption {
     background: white;
 }
 figure {
@@ -34,18 +34,30 @@ figure img:hover {
 .person4 {
     background: url(img/czetwertynski_1.jpg);
 }
+.person5 {
+    background: url(img/jakubisiak1.png);
+}
+.person8 {
+    background: url(img/cybin1.jpg);
+}
 figcaption {
     text-align: center;
     height: 50px;
 }
+.blank_place {
+    height: 40px;
+}
 footer {
     padding: 5px;
-    display: flex;
-    justify-content: center;
 }
 footer div {
     max-height: 120px;
     text-align: center;
+}
+.laws {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
 footer:first-child {
     margin-right: 10px;
