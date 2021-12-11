@@ -31,14 +31,35 @@ figure img:hover {
     opacity: 1;
     transition: 1s;
 }
+.person1 {
+    background: url(img/sliwinscy1.jpg);
+}
+.person2 {
+    background: url(img/kozinska1.jpg);
+}
+.person3 {
+    background: url(img/pankowie1.jpg);
+}
 .person4 {
-    background: url(img/czetwertynski_1.jpg);
+    background: url(img/czewerynski1a.jpg);
 }
 .person5 {
-    background: url(img/jakubisiak1.png);
+    background: url(img/jakubisiak1.jpg);
+}
+.person6 {
+    background: url(img/pruszynska1.jpg);
+}
+.person7 {
+    background: url(img/kuc1.jpg);
 }
 .person8 {
     background: url(img/cybin1.jpg);
+}
+.person9 {
+    background: url(img/karwecka1.jpg);
+}
+.person10 {
+    background: url(img/cedro1.jpg);
 }
 figcaption {
     text-align: center;
